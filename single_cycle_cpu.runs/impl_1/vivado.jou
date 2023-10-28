@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Sep 25 17:19:50 2023
+# Process ID: 29572
+# Current directory: D:/Projects/single_cycle_cpu/single_cycle_cpu.runs/impl_1
+# Command line: vivado.exe -log data_memory.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source data_memory.tcl -notrace
+# Log file: D:/Projects/single_cycle_cpu/single_cycle_cpu.runs/impl_1/data_memory.vdi
+# Journal file: D:/Projects/single_cycle_cpu/single_cycle_cpu.runs/impl_1\vivado.jou
+# Running On: vikkylaptop, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 10, Host memory: 25464 MB
+#-----------------------------------------------------------
+source data_memory.tcl -notrace

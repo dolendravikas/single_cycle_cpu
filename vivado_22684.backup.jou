@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Sep 28 11:17:31 2023
+# Process ID: 22684
+# Current directory: D:/Projects/single_cycle_cpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29632 D:\Projects\single_cycle_cpu\single_cycle_cpu.xpr
+# Log file: D:/Projects/single_cycle_cpu/vivado.log
+# Journal file: D:/Projects/single_cycle_cpu\vivado.jou
+# Running On: vikkylaptop, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 10, Host memory: 25464 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Projects/single_cycle_cpu/single_cycle_cpu.xpr
+update_compile_order -fileset sources_1
+file mkdir D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sim_1/new/sccpu_tb.v w ]
+add_files -fileset sim_1 D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sim_1/new/sccpu_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1

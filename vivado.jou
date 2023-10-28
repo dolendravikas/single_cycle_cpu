@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Sep 28 13:29:28 2023
+# Process ID: 28860
+# Current directory: D:/Projects/single_cycle_cpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27252 D:\Projects\single_cycle_cpu\single_cycle_cpu.xpr
+# Log file: D:/Projects/single_cycle_cpu/vivado.log
+# Journal file: D:/Projects/single_cycle_cpu\vivado.jou
+# Running On: vikkylaptop, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 10, Host memory: 25464 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Projects/single_cycle_cpu/single_cycle_cpu.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
+source sccpu_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source sccpu_tb.tcl
+relaunch_sim
+relaunch_sim
+close_sim

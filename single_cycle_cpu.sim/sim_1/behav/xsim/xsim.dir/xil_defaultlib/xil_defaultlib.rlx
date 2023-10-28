@@ -1,0 +1,18 @@
+0.7
+2020.2
+May  7 2023
+15:24:31
+D:/Projects/single_cycle_cpu/single_cycle_cpu.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,,,,,,,
+D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sim_1/new/sccpu_tb.v,1695925822,verilog,,,,sccpu_tb,,,,,,,,
+D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/alu.v,1695794266,verilog,,D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/alu_add.v,,alu;alu_one_bit,,,,,,,,
+D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/alu_add.v,1695758481,verilog,,D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/alu_control.v,,alu_add,,,,,,,,
+D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/alu_control.v,1695784536,verilog,,D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/control_unit.v,,alu_control,,,,,,,,
+D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/control_unit.v,1695791207,verilog,,D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/data_memory.v,,control_unit,,,,,,,,
+D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/data_memory.v,1695933534,verilog,,D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/instruction_memory.v,,data_memory,,,,,,,,
+D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/instruction_memory.v,1695935021,verilog,,D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/program_counter.v,,instruction_memory,,,,,,,,
+D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/program_counter.v,1695779900,verilog,,D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/register_file.v,,program_counter,,,,,,,,
+D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/register_file.v,1695933971,verilog,,D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/sccpu.v,,register_file,,,,,,,,
+D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/sccpu.v,1695794128,verilog,,D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/shift_left2_beq.v,,sccpu,,,,,,,,
+D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/shift_left2_beq.v,1695779179,verilog,,D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/shift_left2_j.v,,shift_left2_beq,,,,,,,,
+D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/shift_left2_j.v,1695779303,verilog,,D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/sign_extend.v,,shift_left2_j,,,,,,,,
+D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/sign_extend.v,1695778534,verilog,,D:/Projects/single_cycle_cpu/single_cycle_cpu.srcs/sim_1/new/sccpu_tb.v,,sign_extend,,,,,,,,

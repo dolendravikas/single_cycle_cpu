@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../single_cycle_cpu.srcs/sources_1/new/alu.v" \
+"../../../../single_cycle_cpu.srcs/sources_1/new/alu_add.v" \
+"../../../../single_cycle_cpu.srcs/sources_1/new/alu_control.v" \
+"../../../../single_cycle_cpu.srcs/sources_1/new/control_unit.v" \
+"../../../../single_cycle_cpu.srcs/sources_1/new/data_memory.v" \
+"../../../../single_cycle_cpu.srcs/sources_1/new/instruction_memory.v" \
+"../../../../single_cycle_cpu.srcs/sources_1/new/program_counter.v" \
+"../../../../single_cycle_cpu.srcs/sources_1/new/register_file.v" \
+"../../../../single_cycle_cpu.srcs/sources_1/new/sccpu.v" \
+"../../../../single_cycle_cpu.srcs/sources_1/new/shift_left2_beq.v" \
+"../../../../single_cycle_cpu.srcs/sources_1/new/shift_left2_j.v" \
+"../../../../single_cycle_cpu.srcs/sources_1/new/sign_extend.v" \
+"../../../../single_cycle_cpu.srcs/sim_1/new/sccpu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
